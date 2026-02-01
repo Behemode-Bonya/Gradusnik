@@ -5,9 +5,9 @@ import requests
 
 
 def main():
-    city_name = "Мурино"
-    start_date = "2025-01-01"
-    end_date = "2025-01-07"
+    city_name = input("введите название города: ")
+    start_date = input("введите начальную дату: ")
+    end_date = input("введите конечную дату: ")
 
     data_set = "geonames-postal-code@public/records"
     payload = {
@@ -51,3 +51,4 @@ def main():
 
 if __name__ == "__main__" :
     main()
+
