@@ -49,6 +49,7 @@ def main():
     plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
     plt.show()
 
+
 if __name__ == "__main__" :
     main()
 
